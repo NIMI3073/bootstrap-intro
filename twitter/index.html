@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TOPIC</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            padding-left: 40px;
+            padding-top: 30px;
+        }
+
+        section {
+            height: 87vh;
+            border-radius: 7px;
+            border: 1px;
+        }
+
+        button {
+            border-radius: 30px;
+            border: 1px solid rgba(85, 80, 80, 0.945);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 1px;
+            font-weight: 200;
+        }
+
+        .plus-symbol {
+            color: rgb(57, 190, 243);
+            height: 20px;
+        }
+
+        .subtract-symbol {
+            color: black;
+            height: 20px;
+        }
+
+        .slant-symbol {
+            color: beige;
+            height: 20px;
+        }
+
+        div.main {
+            border: 1px;
+            border-color: black;
+            border-radius: 30px;
+        }
+
+        .trending-area div p {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        .trending-area div {
+            margin-bottom: 10px;
+        }
+
+        .suggested-topics div {
+            border: 1px solid black;
+            border-radius: 70px;
+            margin: 3px;
+            white-space: nowrap;
+
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row container">
+        <section class="col-md-2 card">
+            <i class="fa-brands fa-twitter" style="color:rgb(14, 181, 223)" class="size:30px"></i>
+            <p class="text-dark" style="padding-top:30px">
+                <i class="fas fa-home"></i> Home
+            </p>
+            <p class="text-dark">
+                <i class="fa-solid fa-hashtag"></i>Explore
+            </p>
+            <p class="text-dark">
+                <i class="fas fa-bell;"></i> Notifications
+            </p>
+            <p class="text-dark">
+                <i class="fa fa-envelope" aria-hidden="true"></i>Messages
+            </p>
+            <p class="text-dark">
+                <i class="fas fa-bookmark;"></i>Bookmarks
+            </p>
+            <p class="text-dark">
+                <i class="fa-solid fa-list"></i>Lists
+            </p>
+            <p class="text-dark">
+                <i class="fas fa-user"></i>Profile
+            </p>
+            <p class="text-dark">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>More
+            </p>
+            <button type="button" class="btn-primary text-white">
+                <ion-icon name="at-circle-outline"></ion-icon>Tweet
+            </button>
+        </section>
+        <section class="col-md-6 card bg-dark-light width:20vh">
+            <p class="text-dark text-start" style="margin-top: 5px;">Topics</p>
+            <div class="row alsign-items-start">
+                <div class="col text-dark">
+                    Followed
+                </div>
+                <div class="col text-dark">
+                    Suggested
+                </div>
+                <div class="col text-dark">
+                    Not interested
+                </div>
+                <hr>
+                <p class="text-darks text-lg">The Topics you Followed are used to personalise tweet,events,ads,that you
+                    see and show up on your profile</p>
+
+                <div class="row">
+                    <div class="col-md-8 text-dark">
+                        Bitcon crytocurrency
+                        <p>cryptocurrency</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class=" button"
+                            style="background-color:white;border-radius: 15px;">Following</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 text-dark">
+                    pengoodles
+                        <p>@pengoodles</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="button"
+                            style="background-color:black;border-radius: 15px;">Follow</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 text-dark">
+                        Computer Programming
+                        <p>Technology</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="button"
+                            style="background-color:white;border-radius: 15px;">Following</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 text-dark">
+                        UEFA Champions League
+                        <p>soccer competition</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button types="button" class="button"
+                            style="background-color:white;border-radius: 15px;">Following</button>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-start" style="margin-bottom: 1px;">Suggested Topics</p>
+                <p>You'll see top tweets about these right in your home timeline </p>
+                <div class="">
+                    <div class="row suggested-topics">
+                        <div class="col  text-dark">
+                            open source<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col text-dark">
+                            Accounting<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col  text-dark">
+                            marketing<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+
+                        <div class="col  text-dark">
+
+                            Dancehall<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col  text-dark">
+                            Burna boy<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col  text-dark">
+                            Technology<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+
+                        </div>
+                        <div class="col  text-dark">
+
+                            Youtube<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col  text-dark">
+                            Web development<span class="plus-symbol">+</span> <span class="slant-symbol">|</span>
+                            <span class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col  text-dark">
+                            Entertainment<span class="plus-symbol">+</span> <span class="slant-symbol">|</span>
+                            <span class="subtract-symbol">X</span>
+                        </div>
+
+                        <div class="col  text-dark">
+                            FinTech<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col text-dark">
+                            Careers<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                        <div class="col text-dark">
+                            Testing<span class="plus-symbol">+</span> <span class="slant-symbol">|</span> <span
+                                class="subtract-symbol">X</span>
+                        </div>
+                    </div>
+
+        </section>
+        <section class="col-md-3 offset-md-1 card trending-area;" style="background-color:rgb(238, 230, 230)">
+            <div class="text-dark">
+                <input type="search" name="search twitter" value="search twitter"
+                    style="border: 1px; border-radius: 40px; background-color: grey; margin-top: 5px;"> <i
+                    class="fas fa-search"></i>
+                    <hr>
+                <h2 style="font-size:medium ;">Trends for you</h2>
+                <div class="row">
+                    <div class="col-md-8 text-dark" style="font-size: xx-small;"> Trending in Nigeria
+                        <p style="font-size:smaller;"><b>Marriage</b></p>
+                        <p style="font-size: x-small;">61.3k Tweets</p>
+                    </div>
+                    <div class="col-md-2">
+                        <P><strong>....</strong></P>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 text-dark" style="font-size: xx-small;">
+                    Trending in Nigeria
+                    <p style="font-size:small;"><b>Send a Dm</b></p>
+                    <p style="font-size: x-smaller;">54.2k Tweets</p>
+                </div>
+                <div class="col-md-2">
+                    <P><strong>....</strong></P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 text-dark" style="font-size: xx-small;">
+                    Trending in Nigeria
+                    <p style="font-size:smaller;"><b>OJ BEST</b></p>
+                    <p style="font-size: x-small;">6,253 Tweets</p>
+                </div>
+                <div class="col-md-2">
+                    <P><strong>....</strong></P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 text-dark" style="font-size: xx-small;">
+                    Trending in Nigeria
+                    <p style="font-size:smaller;"><b>Ajah</b></p>
+                    <p style="font-size: x-small;">4,783Tweets</p>
+                </div>
+                <div class="col-md-2">
+                    <P><strong>....</strong></P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 text-dark" style="font-size: xx-small;">
+                    Trending in Nigeria
+                    <p style="font-size:smaller;"><b>Marriage</b></p>
+                    <p style="font-size: x-small;">61.3k Tweets</p>
+                </div>
+                <div class="col-md-2">
+                    <P><strong>....</strong></P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 text-dark" style="font-size: xx-small;">
+                    Trending in Nigeria
+                    <p style="font-size:smaller "><b>Deji</b></p>
+                    <p style="font-size: x-small;">2,699 Tweets</p>
+                </div>
+                <div class="col-md-2">
+                    <P><strong>....</strong></P>
+                </div>
+            </div>
+
+            <p class="text-info text-sm">show more</p>
+        </section>
+    </div>
+</body>
+
+</html>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/3e395a6b59.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
